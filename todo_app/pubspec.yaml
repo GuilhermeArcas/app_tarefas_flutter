@@ -27,10 +27,14 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
-dependencies:
+dependencies: 
   shared_preferences: ^2.1.1
   flutter:
     sdk: flutter
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.17.5
+
 
     
   
