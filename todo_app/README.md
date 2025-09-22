@@ -1,16 +1,52 @@
-# todo_app
+# App de Tarefas - Flutter
 
-A new Flutter project.
+Um aplicativo de lista de tarefas (TO-DO List) desenvolvido em **Flutter** e **Dart**.
+O objetivo é praticar conceitos de desenvolvimento mobile, organização de código e interação futura com banco de dados (Firebase).
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Adicionar novas tarefas;
+- Marcar tarefas como concluídas; 
+- Excluir tarefas com o gesto de "arrastar";
+- Persistência de dados local (SharedPreferences ou JSON);
+- Sistema de login e cadastro (em desenvolvimento);
+- Integração futura com Firebase;
 
-A few resources to get you started if this is your first Flutter project:
+## Demonstração 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Tela de Login]()
+![Lista de Tarefas]()
+![Tela de Cadastro]()
+![Tela de Recuperação de Senha]()
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como rodar o projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/SEU_USUARIO/app_tarefas_flutter.git
+
+2. Entre na pasta do projeto: 
+    
+    cd app_tarefas_flutter
+
+3. Instale as dependências: 
+    
+    flutter pub get
+
+4. Execute no emulador ou dispositivo físico:
+
+    flutter run
+
+## Tecnologias
+
+- [Flutter](https://flutter.dev/)  
+- [Dart](https://dart.dev/)  
+- [Material Design](https://m3.material.io/)  
+- [SharedPreferences](https://pub.dev/packages/shared_preferences) (para salvar dados localmente)
+
+## Próximos passos
+
+- [ ] Integrar autenticação com Firebase Auth
+- [ ] Salvar tarefas no Firebase Firestore
+- [ ] Criar categorias personalizadas para as tarefas
+- [ ] Melhorar interface com animações 
